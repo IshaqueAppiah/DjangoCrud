@@ -1,5 +1,5 @@
 from django.db import models
 
 # Create your models here.
-class ToDoClass(models.Model):
+class Todo(models.Model):
   content=models.TextField()
